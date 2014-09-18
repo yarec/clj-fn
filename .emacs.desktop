@@ -1,0 +1,113 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Sep 12 18:34:42 2014
+;; Desktop file format version 206
+;; Emacs version 24.3.1
+
+;; Global section:
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history '("desktop-change-dir" "desktop-save" "desktop-save-in-desktop-dir" "desktop-save" "desktop-clear" "desktop-change-dir" "desktop-clear" "customize-themes" "color-theme-sanityinc-solarized-dark" "color-theme-sanityinc-tomorrow-day"))
+(setq face-name-history nil)
+(setq file-name-history '("/upg/clj-fn/test/clj_fn/core_test.clj" "/upg/clj-fn/src/clj_fn/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/alive.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/test/xyy_tongji/core_test.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/ws/xyy/xyy-tongji/project.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/nginx.clj" "/ws/xyy/xyy-tongji/src/xyy_tongji/core.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/vcs/solr/solr-clojure-sample/dev/user.clj" "/vcs/solr/solr-clojure-sample/project.clj" "/upg/cjlog/src/cjlog/core.clj"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history '("clj_fn —£À test" "core.clj" "core_test.clj" "core.clj" "core_test.clj" "core.clj" "core_test.clj" "clj_fn —£À test" "core.clj" "alive.clj" "project.clj" "alive.clj" "project.clj" "*cider-repl xyy-tongji*" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "project.clj" "alive.clj" "core.clj" "*cider-repl xyy-tongji*" "alive.clj" "*Ibuffer*" "alive.clj" "project.clj" "*cider-repl xyy-tongji*<2>" "alive.clj" "project.clj" "alive.clj" "project.clj" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "*Ibuffer*" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "project.clj" "*cider-repl xyy-tongji*" "alive.clj" "*cider-repl xyy-tongji*" "alive.clj" "nginx.clj" "alive.clj" "nginx.clj" "alive.clj" "core.clj" "nginx.clj" "alive.clj" "nginx.clj" "alive.clj" "nginx.clj" "core.clj" "nginx.clj" "core.clj" "project.clj" "core.clj" "project.clj" "*cider-repl xyy-tongji*" "project.clj" "core.clj" "project.clj" "nginx.clj" "*cider-repl xyy-tongji*" "nginx.clj" "*Ibuffer*" "nginx.clj" "core.clj" "*cider-repl xyy-tongji*" "core.clj" "nginx.clj" "project.clj" "*cider-repl solr-clojure-sample*" "*Messages*" "user.clj" "db.clj" "home.clj" "db.clj" "home.clj" "db.clj" "middleware.clj" "db.clj" "home.clj" "db.clj" "*cider-repl cjlog*" "*nrepl-server cjlog*" "home.clj" "util.clj" "middleware.clj" "util.clj" "middleware.clj" "handler.clj"))
+(setq ido-last-directory-list '(("/rt/tmp/" . "hello-seesaw/") ("/home/rt/" . ".emacs.d/") ("/ws/xyy/" . "xyy-tongji/") ("/upg/" . "cjlog/")))
+(setq ido-work-directory-list '("/upg/clj-fn/src/clj_fn/" "/upg/clj-fn/" "/ws/xyy/xyy-tongji/src/xyy_tongji/" "/ws/xyy/xyy-tongji/" "/vcs/solr/solr-clojure-sample/" "/upg/cjlog/src/cjlog/routes/" "/upg/cjlog/src/cjlog/models/" "/upg/cjlog/src/cjlog/" "/upg/cjlog/"))
+(setq ido-work-file-list '("alive.clj" "project.clj" "nginx.clj"))
+(setq minibuffer-history '("clj-fn.core" "xyy-tongji.alive" "xyy-tongji.core" "xyy-tongji.nginx" "xyy-tongji.core" "xyy-tongji.nginx" "xyy-tongji.core" "user" "cjlog.repl" "cjlog.models.db" "cjlog.repl" "cjlog.models.db" "cjlog.routes.home" "cjlog.repl" "cjlog.models.db" "cjlog.repl" "cjlog.models.db" "cjlog.repl"))
+(setq org-refile-history nil)
+(setq org-tags-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . "        encode-str (if has-encode-str (params 1) \"\")\n        decode-byte (if has-encode-str\n                      (b64/decode (.getBytes encode-str \"UTF-8\")) \"\")\n        dm  (map (fn [x] (- 255 x)) decode-byte)\n        vdm (vec dm)\n        nv  (concat (subvec vdm 27) (subvec vdm 0 27))\n        dstr (String. (byte-array nv))\n        djson (json/read-json dstr)\n;        dstr1 (String. (byte-array dm))\n")))
+(setq search-ring nil)
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/upg/clj-fn/test/clj_fn/core_test.clj"
+  "core_test.clj"
+  'clojure-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode eldoc-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode redshank-mode clojure-test-mode cider-mode)
+  191
+  '(293 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "clj_fn"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode)
+  197
+  '(nil nil)
+  t
+  '("/upg/clj-fn/test/clj_fn/")
+  nil)
+
+(desktop-create-buffer 206
+  "/upg/clj-fn/src/clj_fn/core.clj"
+  "core.clj"
+  'clojure-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode eldoc-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode redshank-mode cider-mode)
+  376
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "test"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode)
+  190
+  '(nil nil)
+  t
+  '("/upg/clj-fn/test/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "clj-fn"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode)
+  885
+  '(nil nil)
+  t
+  '("/upg/clj-fn/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "src"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode)
+  147
+  '(nil nil)
+  t
+  '("/upg/clj-fn/src/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "clj_fn"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode)
+  154
+  '(nil nil)
+  t
+  '("/upg/clj-fn/src/clj_fn/")
+  nil)
+
