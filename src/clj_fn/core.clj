@@ -1,34 +1,29 @@
-(ns clj-fn.core)
-
-(defn zws [v]
-  (let [len (count v)
-        vs (vec (sort v))
-        p (int (/ len 2))]
-    (case len
-      0 0
-      1 (vs 0)
-      (if (odd? len)
-        (vs p)
-        (float (/ (+ (vs p)
-                     (vs (- p 1)))
-                  2))))))
-
-   ;; (zws [2 5 1 7 6 3 9 8])
-
-(defn incm [val key]
-  (swap! val update-in [key] #(inc %)))
+(ns clj-fn.core
+  (require [clj-yaml.core :as yaml]))
 
 ;; (def m (atom {:k1 0}))
 ;; (incm m :k1)
+(defn incm [val key]
+  (swap! val update-in [key] #(inc %)))
 
-(defn file-exists [file]
+
+;;;;;;;;;;;;;;;; File System
+
+;; (file-exists? "/tmp/")
+(defn file-exists? [file]
   (.exists (clojure.java.io/as-file file)))
 
+;; (safe-mkdir "/tmp/t1")
+(defn safe-mkdir
+  [path]
+  (when-not (file-exists? path)
+    (.mkdir (java.io.File. path))))
 
+;;;;;;;;;;;;;;;; Configure
 (def config (atom {}))
 (defn load-conf [fname]
   (let [_fname (str fname ".mine")
-        fname (if (file-exists _fname) _fname fname)
+        fname (if (file-exists? _fname) _fname fname)
         conf-str (slurp fname)
         conf-yaml (yaml/parse-string conf-str)]
     (reset! config conf-yaml)
