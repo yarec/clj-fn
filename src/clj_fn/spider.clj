@@ -20,6 +20,13 @@
   (try (-> a-link (client/get {:cookie-store my-cs}))
        (catch Exception e nil)))
 
+;; (download-bin-with-cookde "http://placehold.it/350x150" "/tmp/test-file.gif")
+(defn download-bin-with-cookde [url outfile-name]
+  (let [get-url (client/get url {:as :byte-array :cookie-store my-cs})]
+    (with-open [w (clojure.java.io/output-stream outfile-name)]
+      (.write w (:body get-url)))))
+
+
 (def *document-cache* (atom {}))
 
 (defn download-cache-with-cookie
@@ -38,6 +45,8 @@
 
     (do (sayln :cache-hit)
         (@*document-cache* a-link))))
+
+
 
 (defn dated-filename
   ([] (dated-filename "" ""))
