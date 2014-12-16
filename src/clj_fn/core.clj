@@ -13,6 +13,16 @@
 (defn file-exists? [file]
   (.exists (clojure.java.io/as-file file)))
 
+(defn write-append
+  [content filename]
+  (spit filename (with-out-str (prn content)) :append true))
+
+(defn write-new
+  [content filename]
+  (spit filename (with-out-str (prn content))))
+
+(def write write-new)
+
 ;; (safe-mkdir "/tmp/t1")
 (defn safe-mkdir
   [path]
