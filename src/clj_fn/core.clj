@@ -23,6 +23,11 @@
 
 (def write write-new)
 
+(defn write-str
+  [content filename]
+        (with-open [wrt (clojure.java.io/writer filename)]
+          (.write wrt content)))
+
 ;; (safe-mkdir "/tmp/t1")
 (defn safe-mkdir
   [path]
