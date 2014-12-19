@@ -26,6 +26,10 @@
     (with-open [w (clojure.java.io/output-stream outfile-name)]
       (.write w (:body get-url)))))
 
+(defn download-bin [uri file]
+  (with-open [in (clojure.java.io/input-stream uri)
+              out (clojure.java.io/output-stream file)]
+    (clojure.java.io/copy in out)))
 
 (def *document-cache* (atom {}))
 
